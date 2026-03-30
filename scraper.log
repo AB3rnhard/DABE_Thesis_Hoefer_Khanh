@@ -33,3 +33,210 @@
 2026-03-29 16:50:34,778 [WARNING] [markets] High null rate on 'volume': 21% (27/129 rows)
 2026-03-29 16:50:34,809 [INFO] [Run #2] Complete — 129 new rows written to DB.
 2026-03-29 16:50:34,906 [INFO] Sleeping 265s until next run at 16:55:00...
+2026-03-30 11:35:43,658 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-30 11:35:43,660 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-30 11:35:43,661 [INFO] Sleeping 256s until next run at 11:40:00...
+2026-03-30 11:40:00,016 [INFO] [Run #1] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 11:40:00,023 [INFO] Tag cache stale (1774863600s old). Fetching from API...
+2026-03-30 11:40:05,199 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 11:40:26,669 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 11:40:26,671 [INFO] Found 13238 unique active markets across targeted tags.
+2026-03-30 11:40:26,776 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 11:40:26,777 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 11:40:26,795 [INFO] [Run #1] Complete — 129 new rows written to DB.
+2026-03-30 11:40:26,902 [INFO] Sleeping 273s until next run at 11:45:00...
+2026-03-30 11:45:00,010 [INFO] [Run #2] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 11:45:00,022 [INFO] Using 34 cached tag IDs (294s old).
+2026-03-30 11:46:07,562 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 11:46:07,564 [INFO] Found 13258 unique active markets across targeted tags.
+2026-03-30 11:46:07,694 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 11:46:07,695 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 11:46:07,722 [INFO] [Run #2] Complete — 129 new rows written to DB.
+2026-03-30 11:46:07,823 [INFO] Sleeping 232s until next run at 11:50:00...
+2026-03-30 11:50:00,006 [INFO] [Run #3] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 11:50:00,023 [INFO] Using 34 cached tag IDs (594s old).
+2026-03-30 11:50:58,070 [WARNING] Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?limit=100&offset=900&active=true&closed=false&tag_id=1312
+2026-03-30 11:51:22,041 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 11:51:22,043 [INFO] Found 13249 unique active markets across targeted tags.
+2026-03-30 11:51:22,150 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 11:51:22,151 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 11:51:22,173 [INFO] [Run #3] Complete — 129 new rows written to DB.
+2026-03-30 11:51:22,292 [INFO] Sleeping 217s until next run at 11:55:00...
+2026-03-30 11:55:00,004 [INFO] [Run #4] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 11:55:00,022 [INFO] Using 34 cached tag IDs (894s old).
+2026-03-30 11:55:24,141 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 11:55:24,143 [INFO] Found 13256 unique active markets across targeted tags.
+2026-03-30 11:55:24,252 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 11:55:24,253 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 11:55:24,274 [INFO] [Run #4] Complete — 129 new rows written to DB.
+2026-03-30 11:55:24,368 [INFO] Sleeping 275s until next run at 12:00:00...
+2026-03-30 12:00:00,015 [INFO] [Run #5] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:00:00,023 [INFO] Using 34 cached tag IDs (1194s old).
+2026-03-30 12:00:29,066 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:00:29,068 [INFO] Found 13254 unique active markets across targeted tags.
+2026-03-30 12:00:29,228 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:00:29,231 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:00:29,332 [INFO] [Run #5] Complete — 129 new rows written to DB.
+2026-03-30 12:00:29,438 [INFO] Sleeping 270s until next run at 12:05:00...
+2026-03-30 12:05:00,014 [INFO] [Run #6] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:05:00,022 [INFO] Using 34 cached tag IDs (1494s old).
+2026-03-30 12:05:24,289 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:05:24,291 [INFO] Found 13254 unique active markets across targeted tags.
+2026-03-30 12:05:24,420 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:05:24,422 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:05:24,448 [INFO] [Run #6] Complete — 129 new rows written to DB.
+2026-03-30 12:05:24,557 [INFO] Sleeping 275s until next run at 12:10:00...
+2026-03-30 12:10:00,013 [INFO] [Run #7] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:10:00,021 [INFO] Using 34 cached tag IDs (1794s old).
+2026-03-30 12:10:32,158 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:10:32,159 [INFO] Found 13260 unique active markets across targeted tags.
+2026-03-30 12:10:32,292 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:10:32,293 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:10:32,319 [INFO] [Run #7] Complete — 129 new rows written to DB.
+2026-03-30 12:10:32,432 [INFO] Sleeping 267s until next run at 12:15:00...
+2026-03-30 12:15:00,011 [INFO] [Run #8] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:15:00,019 [INFO] Using 34 cached tag IDs (2094s old).
+2026-03-30 12:15:24,030 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:15:24,033 [INFO] Found 13247 unique active markets across targeted tags.
+2026-03-30 12:15:24,144 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:15:24,145 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:15:24,171 [INFO] [Run #8] Complete — 129 new rows written to DB.
+2026-03-30 12:15:24,275 [INFO] Sleeping 275s until next run at 12:20:00...
+2026-03-30 12:20:00,002 [INFO] [Run #9] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:20:00,017 [INFO] Using 34 cached tag IDs (2394s old).
+2026-03-30 12:20:29,329 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:20:29,331 [INFO] Found 13233 unique active markets across targeted tags.
+2026-03-30 12:20:29,481 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:20:29,483 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:20:29,521 [INFO] [Run #9] Complete — 129 new rows written to DB.
+2026-03-30 12:20:29,625 [INFO] Sleeping 270s until next run at 12:25:00...
+2026-03-30 12:25:00,005 [INFO] [Run #10] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:25:00,014 [INFO] Using 34 cached tag IDs (2694s old).
+2026-03-30 12:25:27,862 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:25:27,864 [INFO] Found 13240 unique active markets across targeted tags.
+2026-03-30 12:25:27,987 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:25:27,988 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:25:28,015 [INFO] [Run #10] Complete — 129 new rows written to DB.
+2026-03-30 12:25:28,116 [INFO] Sleeping 271s until next run at 12:30:00...
+2026-03-30 12:30:00,007 [INFO] [Run #11] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:30:00,013 [INFO] Using 34 cached tag IDs (2994s old).
+2026-03-30 12:30:30,576 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:30:30,579 [INFO] Found 13240 unique active markets across targeted tags.
+2026-03-30 12:30:30,718 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:30:30,719 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:30:30,743 [INFO] [Run #11] Complete — 129 new rows written to DB.
+2026-03-30 12:30:30,849 [INFO] Sleeping 269s until next run at 12:35:00...
+2026-03-30 12:35:00,006 [INFO] [Run #12] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:35:00,007 [INFO] [HEARTBEAT] Run #12 — scraper alive. Consecutive failures: 0.
+2026-03-30 12:35:00,016 [INFO] Using 34 cached tag IDs (3294s old).
+2026-03-30 12:35:27,056 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:35:27,056 [INFO] Found 13230 unique active markets across targeted tags.
+2026-03-30 12:35:27,176 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:35:27,177 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:35:27,200 [INFO] [Run #12] Complete — 129 new rows written to DB.
+2026-03-30 12:35:27,301 [INFO] Sleeping 272s until next run at 12:40:00...
+2026-03-30 12:40:00,009 [INFO] [Run #13] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:40:00,018 [INFO] Using 34 cached tag IDs (3594s old).
+2026-03-30 12:40:35,458 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:40:35,459 [INFO] Found 13233 unique active markets across targeted tags.
+2026-03-30 12:40:35,588 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:40:35,589 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:40:35,617 [INFO] [Run #13] Complete — 129 new rows written to DB.
+2026-03-30 12:40:35,704 [INFO] Sleeping 264s until next run at 12:45:00...
+2026-03-30 12:45:00,005 [INFO] [Run #14] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:45:00,014 [INFO] Tag cache stale (3894s old). Fetching from API...
+2026-03-30 12:45:05,150 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 12:45:33,901 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:45:33,904 [INFO] Found 13253 unique active markets across targeted tags.
+2026-03-30 12:45:34,023 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:45:34,024 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:45:34,042 [INFO] [Run #14] Complete — 129 new rows written to DB.
+2026-03-30 12:45:34,171 [INFO] Sleeping 265s until next run at 12:50:00...
+2026-03-30 12:50:00,008 [INFO] [Run #15] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:50:00,016 [INFO] Using 34 cached tag IDs (294s old).
+2026-03-30 12:50:34,886 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:50:34,887 [INFO] Found 13246 unique active markets across targeted tags.
+2026-03-30 12:50:35,031 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:50:35,031 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:50:35,128 [INFO] [Run #15] Complete — 129 new rows written to DB.
+2026-03-30 12:50:35,220 [INFO] Sleeping 264s until next run at 12:55:00...
+2026-03-30 12:55:00,008 [INFO] [Run #16] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 12:55:00,017 [INFO] Using 34 cached tag IDs (594s old).
+2026-03-30 12:55:29,802 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 12:55:29,804 [INFO] Found 13253 unique active markets across targeted tags.
+2026-03-30 12:55:29,911 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 12:55:29,912 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 12:55:29,940 [INFO] [Run #16] Complete — 129 new rows written to DB.
+2026-03-30 12:55:30,026 [INFO] Sleeping 269s until next run at 13:00:00...
+2026-03-30 13:00:00,002 [INFO] [Run #17] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:00:00,010 [INFO] Using 34 cached tag IDs (894s old).
+2026-03-30 13:00:24,823 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:00:24,838 [INFO] Found 13253 unique active markets across targeted tags.
+2026-03-30 13:00:24,968 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 13:00:24,969 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 13:00:24,992 [INFO] [Run #17] Complete — 129 new rows written to DB.
+2026-03-30 13:00:25,100 [INFO] Sleeping 274s until next run at 13:05:00...
+2026-03-30 13:05:00,005 [INFO] [Run #18] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:05:00,016 [INFO] Using 34 cached tag IDs (1194s old).
+2026-03-30 13:05:18,311 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:05:18,314 [INFO] Found 13267 unique active markets across targeted tags.
+2026-03-30 13:05:18,431 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 13:05:18,431 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 13:05:18,462 [INFO] [Run #18] Complete — 129 new rows written to DB.
+2026-03-30 13:05:18,554 [INFO] Sleeping 281s until next run at 13:10:00...
+2026-03-30 13:10:00,016 [INFO] [Run #19] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:10:00,023 [INFO] Using 34 cached tag IDs (1495s old).
+2026-03-30 13:10:24,715 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:10:24,717 [INFO] Found 13260 unique active markets across targeted tags.
+2026-03-30 13:10:24,824 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 13:10:24,825 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 13:10:24,851 [INFO] [Run #19] Complete — 129 new rows written to DB.
+2026-03-30 13:10:24,942 [INFO] Sleeping 275s until next run at 13:15:00...
+2026-03-30 13:15:00,003 [INFO] [Run #20] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:15:00,011 [INFO] Using 34 cached tag IDs (1794s old).
+2026-03-30 13:15:27,263 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:15:27,264 [INFO] Found 13240 unique active markets across targeted tags.
+2026-03-30 13:15:27,371 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 13:15:27,372 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 13:15:27,474 [INFO] [Run #20] Complete — 129 new rows written to DB.
+2026-03-30 13:15:27,590 [INFO] Sleeping 272s until next run at 13:20:00...
+2026-03-30 13:20:00,006 [INFO] [Run #21] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:20:00,014 [INFO] Using 34 cached tag IDs (2094s old).
+2026-03-30 13:20:24,193 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:20:24,195 [INFO] Found 13233 unique active markets across targeted tags.
+2026-03-30 13:20:24,349 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 13:20:24,350 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 13:20:24,377 [INFO] [Run #21] Complete — 129 new rows written to DB.
+2026-03-30 13:20:24,469 [INFO] Sleeping 275s until next run at 13:25:00...
+2026-03-30 13:25:00,020 [INFO] [Run #22] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:25:00,029 [INFO] Using 34 cached tag IDs (2395s old).
+2026-03-30 13:25:29,288 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:25:29,290 [INFO] Found 13240 unique active markets across targeted tags.
+2026-03-30 13:25:29,413 [WARNING] [markets] High null rate on 'volume': 17% (22/129 rows)
+2026-03-30 13:25:29,414 [WARNING] [markets] High null rate on 'lastTradePrice': 19% (24/129 rows)
+2026-03-30 13:25:29,444 [INFO] [Run #22] Complete — 129 new rows written to DB.
+2026-03-30 13:25:29,537 [INFO] Sleeping 270s until next run at 13:30:00...
+2026-03-30 13:30:00,009 [INFO] [Run #23] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:30:00,019 [INFO] Using 34 cached tag IDs (2694s old).
+2026-03-30 13:30:33,030 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:30:33,032 [INFO] Found 13233 unique active markets across targeted tags.
+2026-03-30 13:30:33,165 [WARNING] [markets] High null rate on 'volume': 15% (19/129 rows)
+2026-03-30 13:30:33,167 [WARNING] [markets] High null rate on 'lastTradePrice': 17% (22/129 rows)
+2026-03-30 13:30:33,194 [INFO] [Run #23] Complete — 129 new rows written to DB.
+2026-03-30 13:30:33,316 [INFO] Sleeping 266s until next run at 13:35:00...
+2026-03-30 13:35:00,012 [INFO] [Run #24] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 13:35:00,015 [INFO] [HEARTBEAT] Run #24 — scraper alive. Consecutive failures: 0.
+2026-03-30 13:35:00,025 [INFO] Using 34 cached tag IDs (2995s old).
+2026-03-30 13:35:26,433 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:35:26,435 [INFO] Found 13226 unique active markets across targeted tags.
+2026-03-30 13:35:26,600 [WARNING] [markets] High null rate on 'volume': 15% (19/129 rows)
+2026-03-30 13:35:26,601 [WARNING] [markets] High null rate on 'lastTradePrice': 17% (22/129 rows)
+2026-03-30 13:35:26,631 [INFO] [Run #24] Complete — 129 new rows written to DB.
+2026-03-30 13:35:26,744 [INFO] Sleeping 273s until next run at 13:40:00...
+2026-03-30 13:54:15,841 [INFO] [Run #1] Starting scrape (keyword='gold', limit=10)...
+2026-03-30 13:54:15,849 [INFO] Tag cache stale (1774871655s old). Fetching from API...
+2026-03-30 13:54:21,180 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 13:54:51,032 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 13:54:51,033 [INFO] Found 13253 unique active markets across targeted tags.
+2026-03-30 13:54:51,117 [WARNING] [markets] High null rate on 'bestBid': 30% (3/10 rows)
+2026-03-30 13:54:51,123 [INFO] [Run #1] Complete — 10 new rows written to DB.
