@@ -240,3 +240,73 @@
 2026-03-30 13:54:51,033 [INFO] Found 13253 unique active markets across targeted tags.
 2026-03-30 13:54:51,117 [WARNING] [markets] High null rate on 'bestBid': 30% (3/10 rows)
 2026-03-30 13:54:51,123 [INFO] [Run #1] Complete — 10 new rows written to DB.
+2026-03-30 14:37:20,210 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-30 14:37:20,211 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-30 14:37:20,213 [INFO] Sleeping 159s until next run at 14:40:00...
+2026-03-30 14:39:50,933 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-30 14:39:50,935 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-30 14:39:50,936 [INFO] Sleeping 9s until next run at 14:40:00...
+2026-03-30 14:40:00,016 [INFO] [Run #1] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 14:40:00,023 [INFO] Tag cache stale (1774874400s old). Fetching from API...
+2026-03-30 14:40:05,153 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 14:40:41,575 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 14:40:41,575 [INFO] Found 13302 unique active markets across targeted tags.
+2026-03-30 14:40:41,707 [WARNING] [markets] High null rate on 'bestBid': 11% (14/130 rows)
+2026-03-30 14:40:41,709 [WARNING] [markets] High null rate on 'lastTradePrice': 18% (23/130 rows)
+2026-03-30 14:40:41,711 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows)
+2026-03-30 14:40:41,758 [INFO] [Run #1] Complete — 130 new rows written to DB.
+2026-03-30 14:40:41,966 [INFO] Sleeping 258s until next run at 14:45:00...
+2026-03-30 14:45:00,015 [INFO] [Run #2] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 14:45:00,024 [INFO] Using 34 cached tag IDs (295s old).
+2026-03-30 14:45:29,529 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 14:45:29,532 [INFO] Found 13322 unique active markets across targeted tags.
+2026-03-30 14:45:29,698 [WARNING] [markets] High null rate on 'bestBid': 11% (14/130 rows)
+2026-03-30 14:45:29,699 [WARNING] [markets] High null rate on 'lastTradePrice': 18% (23/130 rows)
+2026-03-30 14:45:29,700 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows)
+2026-03-30 14:45:29,742 [INFO] [Run #2] Complete — 130 new rows written to DB.
+2026-03-30 14:45:29,872 [INFO] Sleeping 270s until next run at 14:50:00...
+2026-03-30 14:52:53,872 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-30 14:52:53,873 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-30 14:52:53,874 [INFO] Sleeping 126s until next run at 14:55:00...
+2026-03-30 14:55:00,008 [INFO] [Run #1] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 14:55:00,016 [INFO] Tag cache stale (1774875300s old). Fetching from API...
+2026-03-30 14:55:01,632 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 14:55:30,199 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 14:55:30,204 [INFO] Found 13322 unique active markets across targeted tags.
+2026-03-30 14:55:30,384 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 14:55:30,386 [WARNING] [markets] High null rate on 'lastTradePrice': 18% (23/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 14:55:30,425 [INFO] [Run #1] Complete — 130 new rows written to DB in 30.4s.
+2026-03-30 14:55:30,636 [INFO] Sleeping 269s until next run at 15:00:00...
+2026-03-30 15:00:00,015 [INFO] [Run #2] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 15:00:00,023 [INFO] Using 34 cached tag IDs (298s old).
+2026-03-30 15:00:24,764 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 15:00:24,765 [INFO] Found 13322 unique active markets across targeted tags.
+2026-03-30 15:00:24,898 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:00:24,900 [WARNING] [markets] High null rate on 'lastTradePrice': 18% (23/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:00:24,934 [INFO] [Run #2] Complete — 130 new rows written to DB in 24.9s.
+2026-03-30 15:00:25,030 [INFO] Sleeping 274s until next run at 15:05:00...
+2026-03-30 15:05:00,007 [INFO] [Run #3] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 15:05:00,013 [INFO] Using 34 cached tag IDs (598s old).
+2026-03-30 15:05:26,794 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 15:05:26,796 [INFO] Found 13322 unique active markets across targeted tags.
+2026-03-30 15:05:26,957 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:05:26,957 [WARNING] [markets] High null rate on 'lastTradePrice': 18% (23/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:05:26,957 [WARNING] [markets] High null rate on 'bestBid': 11% (14/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:05:26,993 [INFO] [Run #3] Complete — 130 new rows written to DB in 27.0s.
+2026-03-30 15:05:27,113 [INFO] Sleeping 272s until next run at 15:10:00...
+2026-03-30 15:15:39,306 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-30 15:15:39,310 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-30 15:15:39,311 [INFO] Sleeping 260s until next run at 15:20:00...
+2026-03-30 15:15:45,742 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-30 15:15:45,745 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-30 15:15:45,745 [INFO] Sleeping 254s until next run at 15:20:00...
+2026-03-30 15:20:00,009 [INFO] [Run #1] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 15:20:00,017 [INFO] Tag cache stale (1774876800s old). Fetching from API...
+2026-03-30 15:20:05,261 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 15:20:30,135 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 15:20:30,136 [INFO] Found 13322 unique active markets across targeted tags.
+2026-03-30 15:20:30,240 [WARNING] [markets] High null rate on 'lastTradePrice': 18% (23/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:20:30,241 [WARNING] [markets] High null rate on 'bestBid': 11% (14/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:20:30,243 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 15:20:30,265 [INFO] [Run #1] Complete — 130 new rows written to DB in 30.3s.
+2026-03-30 15:20:30,459 [INFO] Sleeping 269s until next run at 15:25:00...
