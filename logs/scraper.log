@@ -40,3 +40,6 @@
 2026-03-30 16:35:26,456 [INFO] [Run #3] Complete — 130 new rows written to DB in 26.4s.
 2026-03-30 16:35:26,482 [INFO] PythonAnywhere CPU usage check skipped (missing env vars).
 2026-03-30 16:35:26,584 [INFO] Sleeping 273s until next run at 16:40:00...
+2026-03-31 12:33:26,719 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-31 12:33:26,723 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-31 12:33:26,724 [INFO] Sleeping 93s until next run at 12:35:00...
