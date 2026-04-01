@@ -21,11 +21,11 @@ def sync():
     # 2. Upload to S3
     print(f"Uploading to S3: {S3_KEY}...")
     s3 = boto3.client(
-    's3',
-    aws_access_key_id="AKIAR52NK5ERTCIC7HPN",
-    aws_secret_access_key="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",
-    region_name="eu-north-1" 
-)
+        's3',
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        region_name="eu-north-1"
+    )
     
     s3.upload_file(BACKUP_PATH, BUCKET_NAME, S3_KEY)
     print("Upload complete!")
