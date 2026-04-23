@@ -1,0 +1,64 @@
+{
+  "model": "lstm",
+  "window": "expanding",
+  "data_date": "2026-04-17",
+  "data_sha1": "2d22e985ea12fc326281c69a986a5bcd016e5df0",
+  "run_utc": "2026-04-22T21:57:21",
+  "train_time_s": 1112.277,
+  "n_features": 163,
+  "feature_sample": [
+    "volume__will_gold_gc_hit_high_5_500_by_end_of_june_614659",
+    "volume1mo__will_gold_gc_hit_high_5_500_by_end_of_june_614659",
+    "volume__will_gold_gc_hit_low_3_000_by_end_of_march_57f50e",
+    "volume1mo__will_gold_gc_hit_low_3_000_by_end_of_march_57f50e",
+    "liquidityClob__will_bitcoin_outperform_gold_in_march_2026_f9924d",
+    "volume1wk__will_gold_gc_hit_low_3_400_by_end_of_june_4b183f",
+    "volume__will_gold_gc_hit_high_7_000_by_end_of_june_560dce",
+    "volume__will_bitcoin_outperform_gold_in_2026_1406ad",
+    "volume1wk__will_gold_gc_hit_low_3_000_by_end_of_march_57f50e",
+    "volume1mo__will_gold_gc_hit_high_7_000_by_end_of_march_3a6a53",
+    "volume__will_gold_gc_hit_high_7_000_by_end_of_march_3a6a53",
+    "volume__will_gold_gc_hit_low_3_400_by_end_of_june_4b183f",
+    "volume__will_gold_gc_hit_high_10_000_by_end_of_march_a54151",
+    "volume1mo__will_gold_gc_hit_high_10_000_by_end_of_march_a54151",
+    "liquidityClob__gold_xauusd_up_or_down_on_april_16_d0076d"
+  ],
+  "metrics": {
+    "n": 3550,
+    "rmse": 0.004177626498711608,
+    "mae": 0.002954886888512556,
+    "r2": -0.20923104660816483,
+    "dir_acc": 0.5664788732394366,
+    "hit_rate_nonzero": 0.5664788732394366
+  },
+  "config": {
+    "bar_minutes": 5,
+    "return_horizon_min": 60,
+    "horizon_steps": 12,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "ridge_alpha": 10.0,
+    "pca_n_components": 30,
+    "feature_engineering_done": false,
+    "prefilter_topN": 150,
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "lstm_epochs": 8,
+    "lstm_batch": 32,
+    "rf_estimators": 200,
+    "random_state": 67,
+    "handle_daily_gap": true,
+    "gap_threshold": "60min"
+  }
+}

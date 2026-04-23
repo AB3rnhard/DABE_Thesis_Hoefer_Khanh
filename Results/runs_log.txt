@@ -7,3 +7,18 @@
 2026-04-20T10:04:34  rf       fixed300    data=2026-04-17  rmse=1.13386e-03  mae=7.63112e-04  r2=-0.1027  dir_acc=0.484
 2026-04-20T12:52:02  rf       expanding   data=2026-04-17  rmse=1.14984e-03  mae=7.73586e-04  r2=-0.0892  dir_acc=0.478
 2026-04-20T13:05:03  lstm     fixed120    data=2026-04-17  rmse=1.18555e-03  mae=8.09437e-04  r2=-0.1579  dir_acc=0.502
+2026-04-21T08:46:30  lstm     fixed240    data=2026-04-17  rmse=1.17497e-03  mae=7.99321e-04  r2=-0.1628  dir_acc=0.502  train_time=605.0s
+2026-04-21T09:00:12  lstm     fixed300    data=2026-04-17  rmse=1.15667e-03  mae=7.82847e-04  r2=-0.1475  dir_acc=0.487  train_time=546.7s
+2026-04-21T09:28:28  lstm     expanding   data=2026-04-17  rmse=1.15469e-03  mae=7.76111e-04  r2=-0.0984  dir_acc=0.492  train_time=1350.4s
+2026-04-21T14:40:18  linear   fixed120    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=7.98999e-01  mae=2.53586e-02  r2=-44231.6146  dir_acc=0.551  train_time=49.3s
+2026-04-21T14:41:29  linear   fixed240    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=1.31005e+00  mae=2.84309e-02  r2=-123635.1556  dir_acc=0.536  train_time=65.2s
+2026-04-21T14:42:43  linear   fixed300    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=1.38219e+00  mae=3.01478e-02  r2=-139249.7681  dir_acc=0.532  train_time=67.6s
+2026-04-21T14:43:40  linear   expanding   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=1.71535e+00  mae=3.56845e-02  r2=-203871.0981  dir_acc=0.512  train_time=51.6s
+2026-04-22T15:46:29  rf       fixed120    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.35126e-03  mae=2.31316e-03  r2=+0.2218  dir_acc=0.644  train_time=888.3s
+2026-04-22T16:03:17  rf       fixed240    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.47093e-03  mae=2.36491e-03  r2=+0.1321  dir_acc=0.620  train_time=885.2s
+2026-04-22T16:19:32  rf       fixed300    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.46878e-03  mae=2.37154e-03  r2=+0.1230  dir_acc=0.608  train_time=855.3s
+2026-04-22T18:15:03  rf       expanding   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.65745e-03  mae=2.49421e-03  r2=+0.0732  dir_acc=0.581  train_time=6790.9s
+2026-04-22T21:09:01  lstm     fixed120    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=4.02729e-03  mae=2.81818e-03  r2=-0.1238  dir_acc=0.525  train_time=546.0s
+2026-04-22T21:22:09  lstm     fixed240    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.84935e-03  mae=2.68104e-03  r2=-0.0674  dir_acc=0.562  train_time=535.6s
+2026-04-22T21:34:25  lstm     fixed300    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.82826e-03  mae=2.64064e-03  r2=-0.0682  dir_acc=0.567  train_time=483.6s
+2026-04-22T21:57:21  lstm     expanding   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=4.17763e-03  mae=2.95489e-03  r2=-0.2092  dir_acc=0.566  train_time=1112.3s
