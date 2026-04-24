@@ -22,3 +22,13 @@
 2026-04-22T21:22:09  lstm     fixed240    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.84935e-03  mae=2.68104e-03  r2=-0.0674  dir_acc=0.562  train_time=535.6s
 2026-04-22T21:34:25  lstm     fixed300    h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.82826e-03  mae=2.64064e-03  r2=-0.0682  dir_acc=0.567  train_time=483.6s
 2026-04-22T21:57:21  lstm     expanding   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=4.17763e-03  mae=2.95489e-03  r2=-0.2092  dir_acc=0.566  train_time=1112.3s
+2026-04-23T12:38:39  linear   fixed120    poly   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=7.98999e-01  mae=2.53586e-02  r2=-44231.6146  dir_acc=0.551  train_time=50.1s
+2026-04-23T12:39:51  linear   fixed240    poly   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=1.31005e+00  mae=2.84309e-02  r2=-123635.1556  dir_acc=0.536  train_time=65.7s
+2026-04-23T12:41:12  linear   fixed300    poly   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=1.38219e+00  mae=3.01478e-02  r2=-139249.7681  dir_acc=0.532  train_time=74.3s
+2026-04-23T12:42:18  linear   expanding   poly   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=1.71535e+00  mae=3.56845e-02  r2=-203871.0981  dir_acc=0.512  train_time=59.9s
+2026-04-23T13:00:28  rf       fixed120    poly   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.35126e-03  mae=2.31316e-03  r2=+0.2218  dir_acc=0.644  train_time=940.9s
+2026-04-23T13:22:10  rf       fixed240    poly   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.47093e-03  mae=2.36491e-03  r2=+0.1321  dir_acc=0.620  train_time=1126.8s
+2026-04-23T13:44:11  rf       fixed300    poly   h=60m  α=10  pca=30  f=163  data=2026-04-17  rmse=3.46878e-03  mae=2.37154e-03  r2=+0.1230  dir_acc=0.608  train_time=1147.9s
+2026-04-24T08:50:51  lstm     fixed120    poly   h=60m  alpha=10  pca=30  f=163  data=2026-04-17  rmse=4.18913e-03  mae=2.88916e-03  r2=-0.2159  dir_acc=0.522  train_time=520.0s
+2026-04-24T09:05:14  lstm     fixed240    poly   h=60m  alpha=10  pca=30  f=163  data=2026-04-17  rmse=3.87218e-03  mae=2.67926e-03  r2=-0.0801  dir_acc=0.556  train_time=590.6s
+2026-04-24T09:18:58  lstm     fixed300    poly   h=60m  alpha=10  pca=30  f=163  data=2026-04-17  rmse=3.81450e-03  mae=2.66534e-03  r2=-0.0606  dir_acc=0.557  train_time=547.5s
