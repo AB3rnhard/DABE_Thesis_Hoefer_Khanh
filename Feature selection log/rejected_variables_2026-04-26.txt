@@ -1,0 +1,11 @@
+acceptingOrders
+approved
+automaticallyActive
+cyom
+enableOrderBook
+hasReviewedDates
+makerBaseFee
+negRiskOther
+new
+orderMinSize
+umaReward
