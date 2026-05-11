@@ -80,3 +80,4 @@
 2026-04-27T03:53:59  lstm     fixed240    trad   h=5m  alpha=10  pca=5  f=25  data=2026-04-23  rmse=1.13471e-03  mae=7.61965e-04  r2=-0.0857  dir_acc=0.492  train_time=737.3s
 2026-04-27T04:10:30  lstm     fixed300    trad   h=5m  alpha=10  pca=5  f=25  data=2026-04-23  rmse=1.10458e-03  mae=7.39388e-04  r2=-0.0477  dir_acc=0.497  train_time=717.5s
 2026-04-27T04:38:35  lstm     expanding   trad   h=5m  alpha=10  pca=5  f=25  data=2026-04-23  rmse=1.12348e-03  mae=7.46627e-04  r2=-0.0410  dir_acc=0.506  train_time=1386.8s
+2026-05-10T08:48:43  linear   fixed120    poly   h=15m  alpha=10  pca=0  f=20  data=2026-05-07  rmse=3.37955e-03  mae=1.20907e-03  r2=-3.4411  dir_acc=0.560  train_time=9.2s
