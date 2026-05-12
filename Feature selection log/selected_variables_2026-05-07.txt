@@ -1,0 +1,5 @@
+bestBid
+lastTradePrice
+negRiskOther
+oneWeekPriceChange
+volumeNum
