@@ -1,0 +1,76 @@
+{
+  "model": "linear",
+  "window": "fixed240",
+  "dataset_tag": "trad",
+  "data_date": "2026-04-23",
+  "data_sha1": "98716effaf1edb667f346ee8b2d91be3ee9868f5",
+  "run_utc": "2026-04-25T01:04:35",
+  "train_time_s": 7.089,
+  "n_features": 25,
+  "feature_sample": [
+    "crude_oil_wti_futures_price_logret",
+    "crude_oil_brent_futures_price_logret",
+    "s_p_500_index_logret",
+    "usd_index_logret",
+    "vix_index_logret",
+    "usgg10yr_index_logret",
+    "crude_oil_wti_futures_price_stale",
+    "crude_oil_brent_futures_price_stale",
+    "s_p_500_index_stale",
+    "usd_index_stale",
+    "vix_index_stale",
+    "usgg10yr_index_stale",
+    "trad_gold_lag1",
+    "trad_gold_lag2",
+    "trad_gold_lag3"
+  ],
+  "metrics": {
+    "n": 3430,
+    "rmse": 0.004139699616253649,
+    "mae": 0.0027215967838113806,
+    "r2": -0.23454119216911073,
+    "dir_acc": 0.5895043731778425,
+    "hit_rate_nonzero": 0.5895043731778425
+  },
+  "config": {
+    "bar_minutes": 5,
+    "return_horizon_min": 60,
+    "horizon_steps": 12,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "ridge_alpha": 10.0,
+    "pca_applied": true,
+    "pca_n": 5,
+    "feature_engineering_done": false,
+    "prefilter_topN": 150,
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "lstm_epochs": 8,
+    "lstm_batch": 32,
+    "rf_estimators": 200,
+    "random_state": 67,
+    "handle_daily_gap": true,
+    "gap_threshold": "60min",
+    "dataset_tag": "trad",
+    "trad_max_ffill_bars": null,
+    "trad_use_staleness": true,
+    "trad_ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ]
+  }
+}

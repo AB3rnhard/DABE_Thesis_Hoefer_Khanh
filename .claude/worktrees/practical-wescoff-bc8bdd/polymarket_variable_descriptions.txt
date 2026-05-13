@@ -1,0 +1,136 @@
+POLYMARKET DATASET VARIABLE REFERENCE
+================================================================================
+
+## CORE IDENTIFIERS & METADATA
+----------------------------------------
+id                        : A unique internal identifier for the market record in Polymarket's database.
+question                  : The primary question or prediction being made (e.g., 'Will Bitcoin reach $100k by 2025?').
+questionID                : A unique identifier linked specifically to the text of the question.
+slug                      : The URL-friendly string used in the web address for this market.
+description               : A detailed explanation of the market, including specific rules, resolution criteria, and context.
+conditionId               : The Gnosis Conditional Token Framework (CTF) identifier that uniquely defines the market on-chain.
+clobTokenIds              : A list of ERC-1155 token IDs that represent the specific outcome shares (e.g., 'Yes' and 'No') on the Central Limit Order Book.
+icon                      : URL to the small thumbnail image representing the market.
+image                     : URL to the larger banner or social sharing image for the market.
+events                    : Metadata or identifiers for the broader event category this market belongs to.
+
+## LIFECYCLE & STATUS
+----------------------------------------
+active                    : Boolean. Indicates if the market is currently live and open for interaction.
+approved                  : Boolean. Indicates if the market has been reviewed and officially approved by Polymarket curators.
+archived                  : Boolean. Indicates if the market has been moved to an archive state (usually after resolution).
+closed                    : Boolean. Indicates if the market is no longer accepting trades.
+ready                     : Boolean. Indicates the market is fully configured and ready for the 'active' state.
+pendingDeployment         : Boolean. Indicates if the market is in the process of being deployed to the blockchain.
+manualActivation          : Boolean. If true, the market requires an administrator to manually toggle it to active.
+automaticallyActive       : Boolean. If true, the market activates itself based on a pre-defined start date.
+createdAt                 : The timestamp when the market entry was first created in the system.
+updatedAt                 : The timestamp of the last update to the market's metadata.
+startDate                 : The scheduled date and time when trading is set to begin.
+endDate                   : The scheduled date and time when trading is set to end.
+startDateIso              : The start date formatted as an ISO 8601 string.
+endDateIso                : The end date formatted as an ISO 8601 string.
+scraped_at                : A custom timestamp (added during your data collection) indicating when this specific snapshot was taken.
+
+## TRADING RULES & MECHANICS
+----------------------------------------
+acceptingOrders           : Boolean. Indicates if the CLOB (Order Book) is currently accepting new limit orders.
+acceptingOrdersTimestamp  : The exact time the market status changed to/from accepting orders.
+clearBookOnStart          : Boolean. If true, any orders placed before the official start will be cleared when the market opens.
+clobRewards               : Contains information about liquidity provider (LP) rewards available for this market's order book.
+competitive               : A metric indicating the level of market maker competition/liquidity depth.
+customLiveness            : A custom duration used for UMA resolution challenges (the time allowed for someone to dispute a proposed answer).
+enableOrderBook           : Boolean. Indicates if the Central Limit Order Book (CLOB) is the primary trading mechanism.
+feeType                   : The model used for fees (e.g., a percentage of the trade or a flat fee).
+feesEnabled               : Boolean. Indicates if trading fees are currently being charged.
+orderMinSize              : The minimum transaction value (in USDC) required to place an order.
+orderPriceMinTickSize     : The smallest allowed price increment (e.g., 0.001).
+restricted                : Boolean. Indicates if the market is geo-blocked or restricted for certain jurisdictions.
+rfqEnabled                : Boolean. 'Request for Quote' allows large traders to request specific prices from market makers.
+makerBaseFee              : The fee paid by the 'maker' (the person who puts an order on the book). Often 0 or negative (a rebate).
+takerBaseFee              : The fee paid by the 'taker' (the person who matches an existing order).
+feeSchedule               : A detailed JSON or string describing the tiered fee structure for the market.
+
+## PRICING & OUTCOMES
+----------------------------------------
+outcomes                  : A list of the possible results for the market (e.g., ['Yes', 'No'] or ['Trump', 'Biden', 'Other']).
+outcomePrices             : The current market prices for each outcome in the 'outcomes' list.
+bestAsk                   : The lowest price currently offered by a seller on the order book.
+bestBid                   : The highest price currently offered by a buyer on the order book.
+lastTradePrice            : The price at which the most recent trade was executed.
+spread                    : The difference between the current Best Bid and Best Ask prices.
+
+## LIQUIDITY METRICS
+----------------------------------------
+liquidity                 : A general measure of the total liquidity (capital) available in the market.
+liquidityClob             : The total dollar value of all limit orders currently sitting in the Central Limit Order Book.
+liquidityNum              : A numeric version of the liquidity metric used for sorting and programmatic comparison.
+liquidityAmm              : Liquidity currently held in the legacy Gnosis Automated Market Maker (AMM) pools.
+
+## VOLUME METRICS (CLOB & AMM)
+----------------------------------------
+volume                    : Total lifetime trading volume across all mechanisms.
+volumeClob                : Total lifetime trading volume executed specifically on the Central Limit Order Book.
+volumeAmm                 : Total lifetime trading volume executed specifically through the Automated Market Maker (AMM).
+volumeNum                 : Numeric total volume for sorting.
+volume24hr                : Total trading volume in the last 24 hours.
+volume24hrClob            : 24-hour volume specifically on the CLOB.
+volume24hrAmm             : 24-hour volume specifically on the AMM.
+volume1wk                 : Total trading volume in the last 7 days.
+volume1wkClob             : 7-day volume on the CLOB.
+volume1wkAmm              : 7-day volume on the AMM.
+volume1mo                 : Total trading volume in the last 30 days.
+volume1moClob             : 30-day volume on the CLOB.
+volume1moAmm              : 30-day volume on the AMM.
+volume1yr                 : Total trading volume in the last 365 days.
+volume1yrClob             : 365-day volume on the CLOB.
+volume1yrAmm              : 365-day volume on the AMM.
+
+## PRICE CHANGE METRICS
+----------------------------------------
+oneHourPriceChange        : The percentage change in price over the last 1 hour.
+oneDayPriceChange         : The percentage change in price over the last 24 hours.
+oneWeekPriceChange        : The percentage change in price over the last 7 days.
+oneMonthPriceChange       : The percentage change in price over the last 30 days.
+oneYearPriceChange        : The percentage change in price over the last 365 days.
+
+## RISK & RESOLUTION (UMA / NEGRISK)
+----------------------------------------
+negRisk                   : Boolean. 'Negative Risk' markets allow the sum of outcome prices to exceed $1.00. Used for multi-outcome events to prevent arbitrage math issues.
+negRiskMarketID           : Identifier for the group of markets that share a Negative Risk limit.
+negRiskOther              : Data about other related markets in the same Negative Risk group.
+negRiskRequestID          : The ID used when submitting the resolution request to the oracle.
+umaBond                   : The amount of collateral (USDC) required to challenge a proposed resolution on the UMA Optimistic Oracle.
+umaResolutionStatuses     : A log or history of the UMA resolution process for this market.
+umaResolutionStatus       : The current status in the UMA pipeline (e.g., Requested, Proposed, Disputed, Resolved).
+umaReward                 : The reward (in tokens) given to the party that correctly resolves or challenges the market.
+resolutionSource          : The specific URL or news entity that will be used to determine the final outcome (e.g., 'AP News', 'FEC filings').
+resolvedBy                : The mechanism used for the final decision, typically 'uma' for the decentralized oracle.
+
+## USER INTERFACE & DISPLAY
+----------------------------------------
+featured                  : Boolean. If true, the market is displayed prominently on the Polymarket homepage.
+groupItemThreshold        : A threshold value used to decide when to group similar markets in the UI.
+groupItemTitle            : The display name for a collection of related markets (e.g., '2024 Election Outcomes').
+hasReviewedDates          : Boolean. Indicates if the dates have been manually verified for accuracy by the team.
+seriesColor               : A hex color code used for UI branding/charts for this market series.
+showGmpOutcome            : Internal UI flag related to how outcomes are displayed in the Global Market Program.
+showGmpSeries             : Internal UI flag related to market series display.
+requiresTranslation       : Boolean. Indicates if the market's text needs to be localized for non-English users.
+pagerDutyNotificationEnabled : Internal developer flag; indicates if technical failures on this market trigger on-call alerts.
+new                       : Boolean. Indicates if the market was recently added.
+
+## SPECIAL TIMESTAMPS & OTHER
+----------------------------------------
+eventStartTime            : The time the actual real-world event is expected to begin (different from the trading start date).
+gameStartTime             : Specific to sports markets; the kickoff/tip-off time.
+submitted_by              : The username or address of the person who proposed the market (often empty for official markets).
+marketMakerAddress        : The primary wallet address responsible for providing initial liquidity.
+cyom                      : Short for 'Create Your Own Market'. Indicates if this was a user-submitted proposal.
+deploying                 : Boolean. Indicates if the market is currently in the smart contract deployment phase.
+deployingTimestamp        : Timestamp of the start of deployment.
+funded                    : Boolean. Indicates if the initial rewards/liquidity have been deposited into the contract.
+holdingRewardsEnabled     : Boolean. If true, users earn extra rewards simply for holding their position over time.
+rewardsMaxSpread          : The maximum spread allowed for a market maker to remain eligible for rewards.
+rewardsMinSize            : The minimum order size required for a market maker to remain eligible for rewards.
+

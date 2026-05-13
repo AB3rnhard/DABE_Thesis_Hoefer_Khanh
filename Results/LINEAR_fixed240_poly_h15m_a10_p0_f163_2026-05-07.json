@@ -1,0 +1,69 @@
+{
+  "model": "linear",
+  "window": "fixed240",
+  "dataset_tag": "poly",
+  "data_date": "2026-05-07",
+  "data_sha1": "8fb93607775f5a34a8ba81fe1bb258083ad1fcb1",
+  "run_utc": "2026-05-13T14:35:37",
+  "train_time_s": 22.053,
+  "n_features": 163,
+  "feature_sample": [
+    "negRiskRequestID__json_0__will_bitcoin_have_the_best_performance_in_2026_329d7a",
+    "negRiskRequestID__json_0__will_gold_gc_settle_at_3_800_4_200_in_june_17e96b",
+    "negRiskRequestID__json_0__will_gold_gc_settle_at_5_800_6_200_in_june_b44d18",
+    "negRiskRequestID__json_0__will_gold_gc_settle_at_5_000_5_400_in_june_fb287f",
+    "negRiskRequestID__json_0__will_gold_gc_settle_at_4_600_5_000_in_june_9ceca5",
+    "negRiskMarketID__json_0__will_the_s_p_500_have_the_best_performance_in_2026_22cda7",
+    "negRiskMarketID__json_0__will_bitcoin_have_the_best_performance_in_2026_329d7a",
+    "negRiskRequestID__json_0__will_gold_gc_settle_at_6_200_in_june_5e81c4",
+    "negRiskRequestID__json_0__will_gold_gc_settle_at_4_200_4_600_in_june_167ae3",
+    "negRiskRequestID__json_0__will_the_s_p_500_have_the_best_performance_in_2026_22cda7",
+    "resolvedBy__json_0__will_bitcoin_have_the_best_performance_in_2026_329d7a",
+    "resolvedBy__json_0__will_gold_gc_settle_at_5_000_5_400_in_june_fb287f",
+    "resolvedBy__json_0__will_gold_gc_settle_at_5_400_5_800_in_june_e48441",
+    "resolvedBy__json_0__will_gold_gc_settle_at_4_200_4_600_in_june_167ae3",
+    "resolvedBy__json_0__will_gold_gc_settle_at_4_600_5_000_in_june_9ceca5"
+  ],
+  "metrics": {
+    "n": 6894,
+    "rmse": 0.06578509013314872,
+    "mae": 0.0025393322094502935,
+    "r2": -1682.5374635874898,
+    "dir_acc": 0.5082680591818973,
+    "hit_rate_nonzero": 0.5088585535869881
+  },
+  "config": {
+    "bar_minutes": 5,
+    "return_horizon_min": 15,
+    "horizon_steps": 3,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "ridge_alpha": 10.0,
+    "pca_applied": false,
+    "feature_engineering_done": false,
+    "prefilter_topN": 150,
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "lstm_epochs": 8,
+    "lstm_batch": 32,
+    "rf_estimators": 200,
+    "random_state": 67,
+    "handle_daily_gap": true,
+    "gap_threshold": "60min",
+    "dataset_tag": "poly",
+    "trad_max_ffill_bars": null,
+    "trad_use_staleness": null,
+    "trad_ar_lags": null
+  }
+}

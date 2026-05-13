@@ -1,0 +1,54 @@
+{
+  "model": "lstm",
+  "window": "expanding",
+  "data_date": "2026-04-17",
+  "data_sha1": "2d22e985ea12fc326281c69a986a5bcd016e5df0",
+  "run_utc": "2026-04-21T09:28:28",
+  "train_time_s": 1350.394,
+  "n_features": 161,
+  "feature_sample": [
+    "liquidityClob__will_bitcoin_outperform_gold_in_march_2026_f9924d",
+    "liquidityClob__gold_xauusd_up_or_down_on_april_8_d812fe",
+    "liquidityClob__gold_xauusd_up_or_down_on_april_13_4d2a29",
+    "volume1wk__will_gold_gc_hit_low_3_400_by_end_of_june_4b183f",
+    "liquidityClob__gold_xauusd_up_or_down_on_april_7_d6e190",
+    "liquidityClob__will_goldman_sachs_gs_beat_quarterly_earnings_e75caf",
+    "liquidityClob__will_gold_xauusd_hit_low_4_700_week_of_april_13_20_330ded",
+    "liquidityClob__will_gold_xauusd_hit_low_4_650_week_of_april_13_20_5b468f",
+    "liquidityClob__gold_xauusd_up_or_down_on_april_9_129291",
+    "liquidityClob__will_gold_xauusd_hit_high_4_750_week_of_april_13_2_0fa30d",
+    "liquidityClob__gold_xauusd_up_or_down_on_april_14_62ec42",
+    "liquidityClob__will_gold_xauusd_hit_high_4_800_week_of_april_13_2_637981",
+    "liquidityClob__gold_xauusd_up_or_down_on_april_10_4ba50c",
+    "volume1mo__will_gold_gc_hit_high_5_500_by_end_of_june_614659",
+    "liquidityClob__will_gold_xauusd_hit_high_4_850_week_of_april_13_2_317d77"
+  ],
+  "metrics": {
+    "n": 3552,
+    "rmse": 0.0011546888944400523,
+    "mae": 0.0007761107214941054,
+    "r2": -0.09843790042286527,
+    "dir_acc": 0.49239864864864863,
+    "hit_rate_nonzero": 0.49309275444037215
+  },
+  "config": {
+    "horizon_steps": 1,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "rf_estimators": 200,
+    "prefilter_topN": 150
+  }
+}

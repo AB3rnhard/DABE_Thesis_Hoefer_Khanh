@@ -81,3 +81,7 @@
 2026-04-27T04:10:30  lstm     fixed300    trad   h=5m  alpha=10  pca=5  f=25  data=2026-04-23  rmse=1.10458e-03  mae=7.39388e-04  r2=-0.0477  dir_acc=0.497  train_time=717.5s
 2026-04-27T04:38:35  lstm     expanding   trad   h=5m  alpha=10  pca=5  f=25  data=2026-04-23  rmse=1.12348e-03  mae=7.46627e-04  r2=-0.0410  dir_acc=0.506  train_time=1386.8s
 2026-05-10T08:48:43  linear   fixed120    poly   h=15m  alpha=10  pca=0  f=20  data=2026-05-07  rmse=3.37955e-03  mae=1.20907e-03  r2=-3.4411  dir_acc=0.560  train_time=9.2s
+2026-05-13T14:35:06  linear   fixed120    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=2.45193e-01  mae=5.74434e-03  r2=-23372.6547  dir_acc=0.511  train_time=16.3s
+2026-05-13T14:35:37  linear   fixed240    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=6.57851e-02  mae=2.53933e-03  r2=-1682.5375  dir_acc=0.508  train_time=22.1s
+2026-05-13T14:36:12  linear   fixed300    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=6.03164e-02  mae=2.22345e-03  r2=-1465.0675  dir_acc=0.501  train_time=25.2s
+2026-05-13T14:38:01  linear   expanding   poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=1.61089e-02  mae=1.49546e-03  r2=-99.8890  dir_acc=0.486  train_time=98.1s
