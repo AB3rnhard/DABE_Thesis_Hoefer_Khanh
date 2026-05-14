@@ -139,3 +139,10 @@
 2026-05-03T15:51:41  lstm     fixed120    poly   h=60m  alpha=10  pca=30  f=163  data=2026-04-30  rmse=4.12165e-03  mae=2.85972e-03  r2=-0.1770  dir_acc=0.524  train_time=655.0s
 2026-05-03T16:08:14  lstm     fixed240    poly   h=60m  alpha=10  pca=30  f=163  data=2026-04-30  rmse=3.79177e-03  mae=2.68483e-03  r2=-0.0357  dir_acc=0.546  train_time=721.2s
 2026-05-03T16:28:40  lstm     fixed300    poly   h=60m  alpha=10  pca=30  f=163  data=2026-04-30  rmse=3.78273e-03  mae=2.59216e-03  r2=-0.0430  dir_acc=0.577  train_time=909.2s
+2026-05-13T21:44:52+00:00  linear   fixed120    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=1.22542e-01  mae=4.38710e-03  r2=-5837.1949  dir_acc=0.505  train_time=12.1s
+2026-05-13T21:45:15+00:00  linear   fixed240    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=1.81534e-01  mae=5.65005e-03  r2=-12818.8674  dir_acc=0.497  train_time=15.8s
+2026-05-13T21:45:38+00:00  linear   fixed300    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=1.09676e-01  mae=3.44168e-03  r2=-4846.3505  dir_acc=0.497  train_time=15.8s
+2026-05-13T21:47:02+00:00  linear   expanding   poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=5.79264e-02  mae=2.35104e-03  r2=-1303.5609  dir_acc=0.481  train_time=73.6s
+2026-05-13T22:13:32+00:00  rf       fixed120    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=1.62448e-03  mae=1.12708e-03  r2=-0.0260  dir_acc=0.538  train_time=1362.1s
+2026-05-13T22:46:05+00:00  rf       fixed240    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=1.63124e-03  mae=1.12514e-03  r2=-0.0351  dir_acc=0.529  train_time=1735.0s
+2026-05-13T23:23:14+00:00  rf       fixed300    poly   h=15m  alpha=10  pca=0  f=163  data=2026-05-07  rmse=1.61080e-03  mae=1.11639e-03  r2=-0.0456  dir_acc=0.519  train_time=2012.7s

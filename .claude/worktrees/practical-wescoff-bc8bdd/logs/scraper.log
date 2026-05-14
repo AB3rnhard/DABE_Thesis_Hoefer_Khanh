@@ -1,0 +1,45 @@
+2026-03-30 16:11:57,450 [INFO] [Run #1] Starting scrape (keyword='gold', limit=10)...
+2026-03-30 16:11:57,469 [INFO] Tag cache stale (1774879917s old). Fetching from API...
+2026-03-30 16:12:03,563 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 16:12:30,325 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 16:12:30,326 [INFO] Found 13344 unique active markets across targeted tags.
+2026-03-30 16:12:30,453 [WARNING] [markets] High null rate on 'bestBid': 30% (3/10 rows) � likely genuine API absence; filter at modeling time.
+2026-03-30 16:12:30,460 [INFO] [Run #1] Complete � 10 new rows written to DB in 33.0s.
+2026-03-30 16:12:30,474 [INFO] PythonAnywhere CPU usage check skipped (missing env vars).
+2026-03-30 16:24:37,071 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-30 16:24:37,073 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-30 16:24:37,074 [INFO] Sleeping 22s until next run at 16:25:00...
+2026-03-30 16:25:00,016 [INFO] [Run #1] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 16:25:00,024 [INFO] Tag cache stale (1774880700s old). Fetching from API...
+2026-03-30 16:25:01,987 [INFO] Cached 34 tag IDs for the next 3600s.
+2026-03-30 16:25:34,190 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 16:25:34,192 [INFO] Found 13343 unique active markets across targeted tags.
+2026-03-30 16:25:34,335 [WARNING] [markets] High null rate on 'lastTradePrice': 17% (22/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:25:34,336 [WARNING] [markets] High null rate on 'bestBid': 12% (15/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:25:34,337 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:25:34,356 [INFO] [Run #1] Complete — 130 new rows written to DB in 34.3s.
+2026-03-30 16:25:34,397 [INFO] PythonAnywhere CPU usage check skipped (missing env vars).
+2026-03-30 16:25:34,488 [INFO] Sleeping 265s until next run at 16:30:00...
+2026-03-30 16:30:00,013 [INFO] [Run #2] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 16:30:00,023 [INFO] Using 34 cached tag IDs (298s old).
+2026-03-30 16:30:38,130 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 16:30:38,132 [INFO] Found 13338 unique active markets across targeted tags.
+2026-03-30 16:30:38,256 [WARNING] [markets] High null rate on 'lastTradePrice': 17% (22/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:30:38,257 [WARNING] [markets] High null rate on 'bestBid': 12% (15/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:30:38,258 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:30:38,287 [INFO] [Run #2] Complete — 130 new rows written to DB in 38.3s.
+2026-03-30 16:30:38,304 [INFO] PythonAnywhere CPU usage check skipped (missing env vars).
+2026-03-30 16:30:38,379 [INFO] Sleeping 261s until next run at 16:35:00...
+2026-03-30 16:35:00,011 [INFO] [Run #3] Starting scrape (keyword='gold', limit=All)...
+2026-03-30 16:35:00,025 [INFO] Using 34 cached tag IDs (598s old).
+2026-03-30 16:35:26,287 [INFO] Per-tag fetch: all 34 tag requests succeeded.
+2026-03-30 16:35:26,294 [INFO] Found 13330 unique active markets across targeted tags.
+2026-03-30 16:35:26,424 [WARNING] [markets] High null rate on 'lastTradePrice': 17% (22/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:35:26,433 [WARNING] [markets] High null rate on 'bestBid': 12% (15/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:35:26,433 [WARNING] [markets] High null rate on 'volume': 15% (19/130 rows) — likely genuine API absence; filter at modeling time.
+2026-03-30 16:35:26,456 [INFO] [Run #3] Complete — 130 new rows written to DB in 26.4s.
+2026-03-30 16:35:26,482 [INFO] PythonAnywhere CPU usage check skipped (missing env vars).
+2026-03-30 16:35:26,584 [INFO] Sleeping 273s until next run at 16:40:00...
+2026-03-31 12:33:26,719 [INFO] Initializing Wall-Clock Scraper (interval=300s).
+2026-03-31 12:33:26,723 [INFO] Send SIGTERM or press Ctrl+C to stop gracefully after current run.
+2026-03-31 12:33:26,724 [INFO] Sleeping 93s until next run at 12:35:00...

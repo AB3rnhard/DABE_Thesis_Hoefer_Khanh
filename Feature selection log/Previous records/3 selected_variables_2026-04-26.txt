@@ -1,0 +1,8 @@
+competitive
+liquidity
+liquidityClob
+liquidityNum
+oneWeekPriceChange
+outcomePrices__yes
+volume1moClob
+volume1wk

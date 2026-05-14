@@ -1,0 +1,69 @@
+{
+  "model": "linear",
+  "window": "fixed120",
+  "dataset_tag": "poly",
+  "data_date": "2026-05-07",
+  "data_sha1": "af3b818280398497b23ea6ecbf1c998d631c2f2b",
+  "run_utc": "2026-05-10T08:48:43",
+  "train_time_s": 9.19,
+  "n_features": 20,
+  "feature_sample": [
+    "outcomePrices__no__will_trump_sell_101_1k_gold_cards_in_2026_6d0a35",
+    "outcomePrices__no__will_gold_gc_settle_at_4_600_5_000_in_june_9ceca5",
+    "outcomePrices__no__will_gold_gc_settle_at_4_200_4_600_in_june_167ae3",
+    "outcomePrices__no__will_gold_gc_settle_at_5_400_5_800_in_june_e48441",
+    "outcomePrices__no__will_gold_gc_hit_high_10_000_by_end_of_december_85e73e",
+    "outcomePrices__no__will_jared_golden_be_the_democratic_nominee_for_senate_c04124",
+    "outcomePrices__no__will_gold_gc_hit_high_15_000_by_end_of_december_ff3b81",
+    "ar_ret_lag12",
+    "ar_ret_lag1",
+    "ar_ret_lag3",
+    "ar_ret_lag6",
+    "ar_ret_lag2",
+    "ar_ret_ma3",
+    "ar_ret_std12",
+    "ar_ret_std36"
+  ],
+  "metrics": {
+    "n": 7015,
+    "rmse": 0.003379554713458765,
+    "mae": 0.0012090724128349867,
+    "r2": -3.4410829558723863,
+    "dir_acc": 0.5599429793300071,
+    "hit_rate_nonzero": 0.5606622894661718
+  },
+  "config": {
+    "bar_minutes": 5,
+    "return_horizon_min": 15,
+    "horizon_steps": 3,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "ridge_alpha": 10.0,
+    "pca_applied": false,
+    "feature_engineering_done": false,
+    "prefilter_topN": 150,
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "lstm_epochs": 8,
+    "lstm_batch": 32,
+    "rf_estimators": 200,
+    "random_state": 67,
+    "handle_daily_gap": true,
+    "gap_threshold": "60min",
+    "dataset_tag": "poly",
+    "trad_max_ffill_bars": null,
+    "trad_use_staleness": null,
+    "trad_ar_lags": null
+  }
+}
