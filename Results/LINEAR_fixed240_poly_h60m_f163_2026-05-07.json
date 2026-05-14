@@ -1,0 +1,68 @@
+{
+  "model": "linear",
+  "window": "fixed240",
+  "dataset_tag": "poly",
+  "data_date": "2026-05-07",
+  "data_sha1": "9e1231a8ad5a2e5d30f55834c6810d656fbef4ba",
+  "run_utc": "2026-05-14T15:40:56+00:00",
+  "train_time_s": 112.577,
+  "n_features": 163,
+  "feature_sample": [
+    "rewardsMinSize__will_gold_gc_hit_high_8_500_by_end_of_june_f00b67",
+    "rewardsMinSize__will_gold_gc_hit_low_3_400_by_end_of_june_4b183f",
+    "rewardsMinSize__will_gold_gc_settle_at_4_200_4_600_in_june_167ae3",
+    "rewardsMinSize__will_gold_have_the_best_performance_in_2026_62b0b2",
+    "rewardsMinSize__will_gold_gc_hit_low_4_200_by_end_of_june_d18f4b",
+    "rewardsMinSize__will_gold_gc_hit_low_3_800_by_end_of_june_12fe3c",
+    "rewardsMinSize__will_gold_gc_settle_at_4_600_5_000_in_june_9ceca5",
+    "rewardsMinSize__will_gold_gc_hit_high_8_000_by_end_of_june_9933b7",
+    "rewardsMinSize__will_gold_gc_hit_high_10_000_by_end_of_june_80bda7",
+    "rewardsMinSize__will_gold_gc_hit_high_5_500_by_end_of_june_614659",
+    "rewardsMinSize__will_gold_gc_hit_high_5_700_by_end_of_june_480fbb",
+    "rewardsMinSize__will_gold_gc_hit_high_6_200_by_end_of_june_27e95c",
+    "rewardsMinSize__will_gold_gc_hit_high_6_500_by_end_of_june_8a351b",
+    "rewardsMinSize__will_gold_gc_hit_high_7_000_by_end_of_december_95b312",
+    "rewardsMinSize__will_gold_gc_hit_high_7_000_by_end_of_june_560dce"
+  ],
+  "metrics": {
+    "n": 6894,
+    "rmse": 3.7067258945247183,
+    "mae": 0.07569425860286887,
+    "r2": -1317418.1102581718,
+    "dir_acc": 0.5172613867130839
+  },
+  "config": {
+    "bar_minutes": 5,
+    "return_horizon_min": 60,
+    "horizon_steps": 12,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "feature_engineering_done": false,
+    "prefilter_topN": 150,
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "lstm_epochs": 8,
+    "lstm_batch": 32,
+    "rf_estimators": 200,
+    "random_state": 67,
+    "handle_daily_gap": true,
+    "gap_threshold": "60min",
+    "fe_input_mode": "raw_panel",
+    "trad_max_ffill_bars": null,
+    "trad_use_staleness": null,
+    "trad_ar_lags": null,
+    "pls_n_components": null,
+    "pls_selection_path": null
+  }
+}
