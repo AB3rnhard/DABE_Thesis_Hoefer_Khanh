@@ -1,11 +1,11 @@
 {
-  "model": "linear",
-  "window": "fixed300",
+  "model": "rf",
+  "window": "fixed120",
   "dataset_tag": "poly",
   "data_date": "2026-05-07",
   "data_sha1": "3874ae43c5ac7019c895e81d17f4505e4b83ed63",
-  "run_utc": "2026-05-13T21:45:38+00:00",
-  "train_time_s": 15.826,
+  "run_utc": "2026-05-13T22:13:32+00:00",
+  "train_time_s": 1362.054,
   "n_features": 163,
   "feature_sample": [
     "rewardsMinSize__will_gold_gc_hit_high_8_000_by_end_of_june_9933b7",
@@ -25,12 +25,12 @@
     "spread__will_gold_gc_hit_high_5_500_by_end_of_june_614659"
   ],
   "metrics": {
-    "n": 6834,
-    "rmse": 0.10967568698931034,
-    "mae": 0.0034416840763451324,
-    "r2": -4846.350530303415,
-    "dir_acc": 0.49721978343576234,
-    "hit_rate_nonzero": 0.497802519777322
+    "n": 7014,
+    "rmse": 0.0016244816397127403,
+    "mae": 0.0011270775207702557,
+    "r2": -0.025985778764283873,
+    "dir_acc": 0.5379241516966068,
+    "hit_rate_nonzero": 0.5386152748037116
   },
   "pls_n_components": 3,
   "pls_selection_path": "Feature selection log\\pls_n_components_latest.json",
