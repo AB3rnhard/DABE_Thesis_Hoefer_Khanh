@@ -1,2 +1,5 @@
 # Local data — too large for GitHub, stored on S3 instead
 Data/
+
+# Claude Code local config and worktrees
+.claude/
