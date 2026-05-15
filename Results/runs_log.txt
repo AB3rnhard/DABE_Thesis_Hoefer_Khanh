@@ -1,0 +1,5 @@
+2026-05-15T14:02:32+00:00  pls_ols    fixed120    poly            h=60m  f=703  data=2026-05-07  rmse=2.58541e-02  mae=3.65391e-03  r2=-62.9573  dir_acc=0.533  train_time=314.0s
+2026-05-15T15:14:59+00:00  pls_ols    fixed120    poly            h=60m  f=703  data=2026-05-07  rmse=2.58541e-02  mae=3.65391e-03  r2=-62.9573  dir_acc=0.533  train_time=324.3s
+2026-05-15T15:24:26+00:00  pls_ols    fixed240    poly            h=60m  f=703  data=2026-05-07  rmse=3.88156e-02  mae=3.57402e-03  r2=-143.4628  dir_acc=0.530  train_time=356.7s
+2026-05-15T15:34:30+00:00  pls_ols    fixed300    poly            h=60m  f=703  data=2026-05-07  rmse=3.35141e-02  mae=3.38974e-03  r2=-112.7923  dir_acc=0.519  train_time=378.1s
+2026-05-15T15:57:59+00:00  pls_ols    expanding   poly            h=60m  f=703  data=2026-05-07  rmse=8.68211e-03  mae=2.66618e-03  r2=-6.2124  dir_acc=0.508  train_time=1180.7s
