@@ -165,3 +165,7 @@
 2026-05-20T11:21:08+00:00  lstm_pls   expanding   poly+trad       h=60m  f=734  data=2026-05-07  rmse=3.61838e-03  mae=2.57055e-03  r2=-0.2527  dir_acc=0.536  train_time=3599.3s
 2026-05-20T11:48:40+00:00  lstm_pls   fixed240    poly_only       h=60m  f=690  data=2026-05-07  rmse=3.37175e-03  mae=2.34968e-03  r2=-0.0901  dir_acc=0.555  train_time=1622.5s
 2026-05-20T13:17:16+00:00  lstm_pls   expanding   poly_only       h=60m  f=690  data=2026-05-07  rmse=3.44584e-03  mae=2.40175e-03  r2=-0.1361  dir_acc=0.531  train_time=5281.1s
+2026-05-20T16:25:37+00:00  pls_ols    fixed120    poly            h=10m  f=703  data=2026-05-07  rmse=1.14372e-02  mae=1.63713e-03  r2=-73.3028  dir_acc=0.502  train_time=401.8s
+2026-05-20T16:36:22+00:00  pls_ols    fixed240    poly            h=10m  f=703  data=2026-05-07  rmse=6.87845e-03  mae=1.36611e-03  r2=-25.8636  dir_acc=0.508  train_time=398.9s
+2026-05-20T16:46:07+00:00  pls_ols    fixed300    poly            h=10m  f=703  data=2026-05-07  rmse=7.47469e-03  mae=1.35497e-03  r2=-31.8099  dir_acc=0.503  train_time=369.4s
+2026-05-20T17:31:57+00:00  rf_pls     fixed120    poly            h=10m  f=703  data=2026-05-07  rmse=1.49419e-03  mae=1.04876e-03  r2=-0.2682  dir_acc=0.497  train_time=2195.7s
