@@ -1,0 +1,66 @@
+{
+  "model": "linear",
+  "window": "fixed120",
+  "dataset_tag": "ar_only",
+  "data_date": "2026-05-07",
+  "data_sha1": "9e1231a8ad5a2e5d30f55834c6810d656fbef4ba",
+  "run_utc": "2026-05-18T00:44:57+00:00",
+  "train_time_s": 16.238,
+  "n_features": 13,
+  "feature_sample": [
+    "ar_ret_lag1",
+    "ar_ret_lag2",
+    "ar_ret_lag3",
+    "ar_ret_lag6",
+    "ar_ret_lag12",
+    "ar_ret_ma3",
+    "ar_ret_ma6",
+    "ar_ret_ma12",
+    "ar_ret_ma36",
+    "ar_ret_std12",
+    "ar_ret_std36",
+    "is_post_break",
+    "poly_movement_during_break"
+  ],
+  "metrics": {
+    "n": 7014,
+    "rmse": 0.0030431800719872833,
+    "mae": 0.0021683689819329715,
+    "r2": -0.17930987868884807,
+    "dir_acc": 0.5660108354719133
+  },
+  "config": {
+    "bar_minutes": 5,
+    "return_horizon_min": 45,
+    "horizon_steps": 9,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "feature_engineering_done": true,
+    "prefilter_topN": null,
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "lstm_epochs": 8,
+    "lstm_batch": 32,
+    "rf_estimators": 200,
+    "random_state": 67,
+    "handle_daily_gap": true,
+    "gap_threshold": "60min",
+    "fe_input_mode": "raw_panel",
+    "trad_max_ffill_bars": null,
+    "trad_use_staleness": null,
+    "trad_ar_lags": null,
+    "pls_n_components": null,
+    "pls_selection_path": null
+  }
+}
