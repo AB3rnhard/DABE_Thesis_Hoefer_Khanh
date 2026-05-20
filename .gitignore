@@ -3,3 +3,7 @@ Data/
 
 # Claude Code local config and worktrees
 .claude/
+
+.venv/
+
+.vscode/
