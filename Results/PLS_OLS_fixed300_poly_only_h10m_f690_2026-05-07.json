@@ -1,0 +1,68 @@
+{
+  "model": "pls_ols",
+  "window": "fixed300",
+  "dataset_tag": "poly_only",
+  "data_date": "2026-05-07",
+  "data_sha1": "9e1231a8ad5a2e5d30f55834c6810d656fbef4ba",
+  "run_utc": "2026-05-20T23:34:04+00:00",
+  "train_time_s": 144.012,
+  "n_features": 690,
+  "feature_sample": [
+    "bestAsk__will_gold_gc_hit_high_10_000_by_end_of_december_85e73e",
+    "bestAsk__will_gold_gc_hit_high_10_000_by_end_of_june_80bda7",
+    "bestAsk__will_gold_gc_hit_high_12_000_by_end_of_december_c3eadc",
+    "bestAsk__will_gold_gc_hit_high_15_000_by_end_of_december_ff3b81",
+    "bestAsk__will_gold_gc_hit_high_5_500_by_end_of_june_614659",
+    "bestAsk__will_gold_gc_hit_high_5_700_by_end_of_june_480fbb",
+    "bestAsk__will_gold_gc_hit_high_6_200_by_end_of_june_27e95c",
+    "bestAsk__will_gold_gc_hit_high_6_500_by_end_of_june_8a351b",
+    "bestAsk__will_gold_gc_hit_high_7_000_by_end_of_december_95b312",
+    "bestAsk__will_gold_gc_hit_high_7_000_by_end_of_june_560dce",
+    "bestAsk__will_gold_gc_hit_high_8_000_by_end_of_december_3f8083",
+    "bestAsk__will_gold_gc_hit_high_8_000_by_end_of_june_9933b7",
+    "bestAsk__will_gold_gc_hit_high_8_500_by_end_of_june_f00b67",
+    "bestAsk__will_gold_gc_hit_low_3_400_by_end_of_june_4b183f",
+    "bestAsk__will_gold_gc_hit_low_3_800_by_end_of_june_12fe3c"
+  ],
+  "metrics": {
+    "n": 6834,
+    "rmse": 0.007562598060856897,
+    "mae": 0.0013443204233694974,
+    "r2": -32.58609395150451,
+    "dir_acc": 0.49151302311969564
+  },
+  "config": {
+    "bar_minutes": 5,
+    "return_horizon_min": 10,
+    "horizon_steps": 2,
+    "ar_lags": [
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "ar_ma_windows": [
+      3,
+      6,
+      12,
+      36
+    ],
+    "feature_engineering_done": true,
+    "prefilter_topN": null,
+    "lstm_seq_len": 12,
+    "lstm_block": 12,
+    "lstm_epochs": 8,
+    "lstm_batch": 32,
+    "rf_estimators": 200,
+    "random_state": 67,
+    "handle_daily_gap": true,
+    "gap_threshold": "60min",
+    "fe_input_mode": "raw_panel",
+    "trad_max_ffill_bars": null,
+    "trad_use_staleness": null,
+    "trad_ar_lags": null,
+    "pls_n_components": 3,
+    "pls_selection_path": "Feature selection log\\pls_n_components_latest.json"
+  }
+}
