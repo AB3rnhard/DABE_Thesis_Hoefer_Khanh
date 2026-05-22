@@ -205,3 +205,6 @@
 2026-05-21T11:22:10+00:00  lstm       expanding   trad            h=60m  f=31  data=2026-05-07  rmse=3.69340e-03  mae=2.64119e-03  r2=-0.3052  dir_acc=0.526  train_time=3588.1s
 2026-05-21T11:50:08+00:00  lstm       fixed240    bloomberg_only  h=60m  f=18  data=2026-05-07  rmse=3.41110e-03  mae=2.39905e-03  r2=-0.1157  dir_acc=0.553  train_time=1652.7s
 2026-05-21T17:33:23+00:00  lstm       expanding   bloomberg_only  h=60m  f=18  data=2026-05-07  rmse=3.62727e-03  mae=2.54771e-03  r2=-0.2589  dir_acc=0.545  train_time=3043.7s
+2026-05-21T17:57:43+00:00  lstm       fixed240    ar_only         h=60m  f=13  data=2026-05-07  rmse=3.51271e-03  mae=2.51785e-03  r2=-0.1831  dir_acc=0.503  train_time=1435.7s
+2026-05-21T19:12:43+00:00  lstm       expanding   ar_only         h=60m  f=13  data=2026-05-07  rmse=3.49989e-03  mae=2.42615e-03  r2=-0.1720  dir_acc=0.511  train_time=4470.6s
+2026-05-22T18:27:29+00:00  rf         fixed120    trad            h=60m  f=31  data=2026-05-07  rmse=2.38421e-03  mae=1.65002e-03  r2=+0.4561  dir_acc=0.728  train_time=2399.0s

@@ -4,8 +4,8 @@
   "dataset_tag": "trad",
   "data_date": "2026-05-07",
   "data_sha1": "9e1231a8ad5a2e5d30f55834c6810d656fbef4ba",
-  "run_utc": "2026-05-16T22:15:58+00:00",
-  "train_time_s": 1761.308,
+  "run_utc": "2026-05-22T18:27:29+00:00",
+  "train_time_s": 2399.049,
   "n_features": 31,
   "feature_sample": [
     "crude_oil_wti_futures_price_stale",
