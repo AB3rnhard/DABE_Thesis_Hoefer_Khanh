@@ -4,8 +4,8 @@
   "dataset_tag": "bloomberg_only",
   "data_date": "2026-05-07",
   "data_sha1": "9e1231a8ad5a2e5d30f55834c6810d656fbef4ba",
-  "run_utc": "2026-05-17T00:35:33+00:00",
-  "train_time_s": 1547.916,
+  "run_utc": "2026-05-22T23:15:30+00:00",
+  "train_time_s": 1436.956,
   "n_features": 18,
   "feature_sample": [
     "crude_oil_wti_futures_price_stale",

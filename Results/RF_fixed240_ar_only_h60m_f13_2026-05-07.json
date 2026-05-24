@@ -4,8 +4,8 @@
   "dataset_tag": "ar_only",
   "data_date": "2026-05-07",
   "data_sha1": "9e1231a8ad5a2e5d30f55834c6810d656fbef4ba",
-  "run_utc": "2026-05-17T02:10:01+00:00",
-  "train_time_s": 1540.528,
+  "run_utc": "2026-05-23T00:43:20+00:00",
+  "train_time_s": 1585.534,
   "n_features": 13,
   "feature_sample": [
     "ar_ret_lag1",

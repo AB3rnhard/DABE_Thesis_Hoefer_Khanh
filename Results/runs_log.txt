@@ -208,3 +208,11 @@
 2026-05-21T17:57:43+00:00  lstm       fixed240    ar_only         h=60m  f=13  data=2026-05-07  rmse=3.51271e-03  mae=2.51785e-03  r2=-0.1831  dir_acc=0.503  train_time=1435.7s
 2026-05-21T19:12:43+00:00  lstm       expanding   ar_only         h=60m  f=13  data=2026-05-07  rmse=3.49989e-03  mae=2.42615e-03  r2=-0.1720  dir_acc=0.511  train_time=4470.6s
 2026-05-22T18:27:29+00:00  rf         fixed120    trad            h=60m  f=31  data=2026-05-07  rmse=2.38421e-03  mae=1.65002e-03  r2=+0.4561  dir_acc=0.728  train_time=2399.0s
+2026-05-22T21:53:22+00:00  rf         fixed240    trad            h=60m  f=31  data=2026-05-07  rmse=2.40552e-03  mae=1.64114e-03  r2=+0.4452  dir_acc=0.733  train_time=1424.9s
+2026-05-22T22:22:03+00:00  rf         fixed300    trad            h=60m  f=31  data=2026-05-07  rmse=2.49079e-03  mae=1.70155e-03  r2=+0.3715  dir_acc=0.712  train_time=1489.7s
+2026-05-22T22:47:49+00:00  rf         fixed120    bloomberg_only  h=60m  f=18  data=2026-05-07  rmse=2.58624e-03  mae=1.79548e-03  r2=+0.3600  dir_acc=0.699  train_time=1320.4s
+2026-05-22T23:15:30+00:00  rf         fixed240    bloomberg_only  h=60m  f=18  data=2026-05-07  rmse=2.57134e-03  mae=1.76848e-03  r2=+0.3660  dir_acc=0.703  train_time=1437.0s
+2026-05-22T23:44:53+00:00  rf         fixed300    bloomberg_only  h=60m  f=18  data=2026-05-07  rmse=2.78071e-03  mae=1.93385e-03  r2=+0.2166  dir_acc=0.669  train_time=1540.1s
+2026-05-23T00:13:01+00:00  rf         fixed120    ar_only         h=60m  f=13  data=2026-05-07  rmse=2.75954e-03  mae=1.91299e-03  r2=+0.2714  dir_acc=0.666  train_time=1459.3s
+2026-05-23T00:43:20+00:00  rf         fixed240    ar_only         h=60m  f=13  data=2026-05-07  rmse=2.89547e-03  mae=1.98132e-03  r2=+0.1961  dir_acc=0.642  train_time=1585.5s
+2026-05-23T01:13:32+00:00  rf         fixed300    ar_only         h=60m  f=13  data=2026-05-07  rmse=2.85099e-03  mae=1.97401e-03  r2=+0.1765  dir_acc=0.637  train_time=1588.2s

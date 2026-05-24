@@ -4,8 +4,8 @@
   "dataset_tag": "trad",
   "data_date": "2026-05-07",
   "data_sha1": "9e1231a8ad5a2e5d30f55834c6810d656fbef4ba",
-  "run_utc": "2026-05-16T23:30:06+00:00",
-  "train_time_s": 1806.634,
+  "run_utc": "2026-05-22T22:22:03+00:00",
+  "train_time_s": 1489.664,
   "n_features": 31,
   "feature_sample": [
     "crude_oil_wti_futures_price_stale",
@@ -27,7 +27,7 @@
   "metrics": {
     "n": 6834,
     "rmse": 0.0024907906426072123,
-    "mae": 0.0017015521435507193,
+    "mae": 0.0017015521435507198,
     "r2": 0.3714600268945327,
     "dir_acc": 0.7120280948200176
   },
