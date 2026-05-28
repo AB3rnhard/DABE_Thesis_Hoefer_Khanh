@@ -1,0 +1,3 @@
+{
+  "0": "# Thesis Graphs Wrapper\n\nStandalone notebook that generates all figures and tables for the thesis. Re-runs the relevant slices of the feature-engineering pipeline locally so the notebook does **not** need to import the other notebooks.\n\n**Required inputs** (under  and ):\n1.  -- wide-format Polymarket panel,  MultiIndex columns.\n2.  -- final filtered panel, flat columns.\n3.  -- raw Bloomberg workbook.\n4. .\n\nAll palette and threshold knobs live in the **Config** cell below."
+}
